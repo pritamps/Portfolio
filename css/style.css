@@ -14,6 +14,38 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-.name, .byline {
+@media only screen and (max-width: 600px) {
+  /*Reduce header image size on small screens*/
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .header_row img {
+    width: 100%;
+    align-content: center;
+  }
+
+}
+.right-align {
   text-align: right;
+}
+
+/*Set image maximum width for responsiveness, and padding to make it look good*/
+img {
+    max-width: 100%;
+}
+.header_row {
+  vertical-align: middle;
+  height: 100%;
+  padding:15px;]
+  display:flex;
+  flex-wrap: wrap;
+}
+.header_row img {
+  padding: 15px;
+  width:25%;
 }
