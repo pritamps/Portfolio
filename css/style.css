@@ -14,38 +14,59 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@media only screen and (max-width: 600px) {
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2c3d49;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 992px) {
   /*Reduce header image size on small screens*/
   h1 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+  h4 {
+    font-size: 1.3em;
+    text-align: center;
+  }
+  h2 {
     font-size: 1.5em;
     text-align: center;
   }
+
   h3 {
-    font-size: 1.2em;
     text-align: center;
   }
-  .header_row img {
-    width: 100%;
-    align-content: center;
+  img.header_img{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 15px;
   }
 
 }
-.right-align {
-  text-align: right;
+
+h2 {
+  color: #7d97ad;
 }
 
-/*Set image maximum width for responsiveness, and padding to make it look good*/
-img {
-    max-width: 100%;
+h1 {
+  color: #2c3d49;
+  font-weight: 300;
+  font-size: 4em;
 }
-.header_row {
-  vertical-align: middle;
-  height: 100%;
-  padding:15px;]
-  display:flex;
-  flex-wrap: wrap;
+
+h4 {
+  color: #2c3d49;
+  font-weight: 300;
 }
-.header_row img {
-  padding: 15px;
-  width:25%;
+
+hr {
+  border-top: 3px solid #7d97ad;
 }
+img.header_img {
+  margin-top: 15px;
+  height: 100px;
+}
+
